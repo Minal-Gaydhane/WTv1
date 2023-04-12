@@ -20,15 +20,21 @@ import React from "react";
 import CardsGrid from './Components/CardsGrid';
 import NavbarM from "./Components/Navbar";
 import Sponser from "./Components/Sponser";
-
+import CarouselHero from "./Components/CarousalHero";
 import { Container } from "react-bootstrap";
+import FeaturesSection from "./Components/Features";
+import CustomerR from "./Components/CustomerR"
+
 
 const App = () => {
   return (
     <>
       <NavbarM />
       <Container>
+        <CarouselHero/>
+        <FeaturesSection/>
         <CardsGrid />
+        <CustomerR />
         <Sponser />
       </Container>
     </>
