@@ -8,8 +8,11 @@ import CustomerR from "../Components/CustomerR"
 import HomeAboutPage from "../Components/HomeAboutPage";
 import Footer from '../Components/Footer';
 
+import FormComp from "../Components/FormComp";
+import CardsGrid from "../Components/CardsGrid"
 
 import { Container } from "react-bootstrap";
+
 
 const HomePage = () => {
     return (
@@ -23,6 +26,10 @@ const HomePage = () => {
                 <CustomerR />
             </Container>
             <Footer />
+
+            <FormComp />
+            <CardsGrid />
+            
         </>
     )
 }
