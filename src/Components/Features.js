@@ -11,7 +11,7 @@ const FeaturesSection = () => {
                             <div className="text-center">
                                 <div className="features-icon-border">
                                     <div className="features-icon">
-                                        <img decoding="async" src="Images/24.png" width="100" height="100"/>
+                                        <img decoding="async" src="Images/24.png" width="100" height="100" alt="1" />
                                     </div>
                                 </div>
                                 <div className="features-text">
@@ -25,7 +25,7 @@ const FeaturesSection = () => {
                             <div className="text-center">
                                 <div className="features-icon-border">
                                     <div className="features-icon">
-                                        <img decoding="async" src="Images/truck-loaded.png" width="100" height="100" />
+                                        <img decoding="async" src="Images/truck-loaded.png" width="100" height="100" alt="2" />
                                     </div>
                                 </div>
                                 <div className="features-text">
@@ -39,7 +39,7 @@ const FeaturesSection = () => {
                             <div className="text-center">
                                 <div className="features-icon-border">
                                     <div className="features-icon">
-                                        <img decoding="async" src="Images/order.png" width="100" height="100" />
+                                        <img decoding="async" src="Images/order.png" width="100" height="100"  alt="3"/>
                                     </div>
                                 </div>
                                 <div className="features-text">
@@ -53,7 +53,7 @@ const FeaturesSection = () => {
                             <div className="text-center">
                                 <div className="features-icon-border">
                                     <div className="features-icon">
-                                        <img decoding="async" src="Images/lemon.png" width="100" height="100" />
+                                        <img decoding="async" src="Images/lemon.png" width="100" height="100" alt="4" />
                                     </div>
                                 </div>
                                 <div className="features-text">

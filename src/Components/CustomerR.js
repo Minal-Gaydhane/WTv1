@@ -17,7 +17,7 @@ const CustomerR = () => {
                             <Carousel.Item>
                                 <div className="d-sm-flex row">
                                     <Col sm={5} className="profile-box">
-                                        <img decoding="async" src="Images/testimonial-1.png" className="img-fluid" />
+                                        <img decoding="async" src="Images/testimonial-1.png" className="img-fluid" alt="1" />
                                     </Col>
                                     <Col sm={7} className="card">
                                         <div className="desc-box">
@@ -26,7 +26,7 @@ const CustomerR = () => {
                                                 <h4>Jecob Oramson</h4>
                                                 <p className="m-0 text-white">Happy Customers</p>
                                             </div>
-                                            <img decoding="async" src="Images/qoutes.png" className="float-end" />
+                                            <img decoding="async" src="Images/qoutes.png" className="float-end"  alt="2"/>
                                         </div>
                                     </Col>
                                 </div>
@@ -34,7 +34,7 @@ const CustomerR = () => {
                             <Carousel.Item>
                                 <div className="d-sm-flex row">
                                     <Col sm={5} className="profile-box">
-                                        <img decoding="async" src="Images/testimonial-1.png" className="img-fluid" />
+                                        <img decoding="async" src="Images/testimonial-1.png" className="img-fluid" alt="3" />
                                     </Col>
                                     <Col sm={7} className="card">
                                         <div className="desc-box">
@@ -43,7 +43,7 @@ const CustomerR = () => {
                                                 <h4>Jecob Oramson</h4>
                                                 <p className="m-0 text-white">Happy Customers</p>
                                             </div>
-                                            <img decoding="async" src="Images/qoutes.png" className="float-end" />
+                                            <img decoding="async" src="Images/qoutes.png" className="float-end" alt="4" />
                                         </div>
                                     </Col>
                                 </div>
@@ -51,7 +51,7 @@ const CustomerR = () => {
                             <Carousel.Item>
                                 <div className="d-sm-flex row">
                                     <Col sm={5} className="profile-box">
-                                        <img decoding="async" src="Images/testimonial-1.png" className="img-fluid" />
+                                        <img decoding="async" src="Images/testimonial-1.png" className="img-fluid" alt="5" />
                                     </Col>
                                     <Col sm={7} className="card">
                                         <div className="desc-box">
@@ -60,7 +60,7 @@ const CustomerR = () => {
                                                 <h4>Jecob Oramson</h4>
                                                 <p className="m-0 text-white">Happy Customers</p>
                                             </div>
-                                            <img decoding="async" src="Images/qoutes.png" className="float-end" />
+                                            <img decoding="async" src="Images/qoutes.png" className="float-end" alt="6" />
                                         </div>
                                     </Col>
                                 </div>
