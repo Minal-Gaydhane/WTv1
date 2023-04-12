@@ -24,6 +24,7 @@ import CarouselHero from "./Components/CarousalHero";
 import { Container } from "react-bootstrap";
 import FeaturesSection from "./Components/Features";
 import CustomerR from "./Components/CustomerR"
+import HomeAboutPage from "./Components/HomeAboutPage";
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
       <Container>
         <CarouselHero/>
         <FeaturesSection/>
+        <HomeAboutPage/>
         <CardsGrid />
         <CustomerR />
         <Sponser />

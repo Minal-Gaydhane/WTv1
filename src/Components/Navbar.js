@@ -16,7 +16,6 @@ return (
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
             <Nav.Link href="#pricing">products</Nav.Link>
             <NavDropdown title="Select Here" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Sketches & Paintings</NavDropdown.Item>
@@ -27,6 +26,7 @@ return (
               <NavDropdown.Item href="#action/3.4">
                 Gift Cards
               </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">Crafts</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#pricing">Contact us</Nav.Link>
           </Nav>
