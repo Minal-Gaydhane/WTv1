@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import './Features.css'
 
 const FeaturesSection = () => {
     return (
         <section className="feature_section">
             <Container>
                 <Row>
-                    <Col sm={6} lg={3} className="mb-5">
+                    <Col sm={5} lg={3} className="mb-5">
                         <Card className="features-box">
                             <div className="text-center">
                                 <div className="features-icon-border">
@@ -20,7 +21,7 @@ const FeaturesSection = () => {
                             </div>
                         </Card>
                     </Col>
-                    <Col sm={6} lg={3} className="mb-5">
+                    <Col sm={5} lg={3} className="mb-5">
                         <Card className="features-box">
                             <div className="text-center">
                                 <div className="features-icon-border">
@@ -34,12 +35,12 @@ const FeaturesSection = () => {
                             </div>
                         </Card>
                     </Col>
-                    <Col sm={6} lg={3} className="mb-5">
+                    <Col sm={5} lg={3} className="mb-5">
                         <Card className="features-box">
                             <div className="text-center">
                                 <div className="features-icon-border">
                                     <div className="features-icon">
-                                        <img decoding="async" src="Images/order.png" width="100" height="100"  alt="3"/>
+                                        <img decoding="async" src="Images/order.png" width="100" height="100" alt="3" />
                                     </div>
                                 </div>
                                 <div className="features-text">
@@ -48,7 +49,7 @@ const FeaturesSection = () => {
                             </div>
                         </Card>
                     </Col>
-                    <Col sm={6} lg={3} className="mb-5">
+                    <Col sm={5} lg={3} className="mb-5">
                         <Card className="features-box">
                             <div className="text-center">
                                 <div className="features-icon-border">

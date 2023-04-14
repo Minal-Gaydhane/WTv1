@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import './CustomerR.css';
 
 const CustomerR = () => {
     return (
@@ -11,9 +12,9 @@ const CustomerR = () => {
                         <p className="section-subtitle">The Passage Experienced A Surge In Popularity During The 1960s When Again During The 90s As Desktop Publishers</p>
                     </Col>
                 </Row>
-                <Row className="justify-content-center">
+                <Row className="justify-content-center ">
                     <Col xl={8} md={10}>
-                        <Carousel id="testimonial-slider" className="slide">
+                        <Carousel id="testimonial-slider" className="slide custo">
                             <Carousel.Item>
                                 <div className="d-sm-flex row">
                                     <Col sm={5} className="profile-box">
@@ -23,10 +24,10 @@ const CustomerR = () => {
                                         <div className="desc-box">
                                             <p className="fst-italic">Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
                                             <div className="my-4">
-                                                <h4>Jecob Oramson</h4>
+                                                <h4>Samyak Jain</h4>
                                                 <p className="m-0 text-white">Happy Customers</p>
                                             </div>
-                                            <img decoding="async" src="Images/qoutes.png" className="float-end"  alt="2"/>
+                                            <img decoding="async" src="Images/qoutes.png" className="float-end" alt="2" />
                                         </div>
                                     </Col>
                                 </div>
@@ -74,4 +75,3 @@ const CustomerR = () => {
 };
 
 export default CustomerR;
-

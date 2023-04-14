@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NavbarM from "../Components/Navbar";
+import NavBar2 from "../Components/Navbar2"
 import Sponser from "../Components/Sponser";
 import CarouselHero from "../Components/CarousalHero";
 import FeaturesSection from "../Components/Features";
@@ -8,28 +8,30 @@ import CustomerR from "../Components/CustomerR"
 import HomeAboutPage from "../Components/HomeAboutPage";
 import Footer from '../Components/Footer';
 
-import FormComp from "../Components/FormComp";
-import CardsGrid from "../Components/CardsGrid"
+// import FormComp from "../Components/FormComp";
+// import CardsGrid from "../Components/CardsGrid"
 
 import { Container } from "react-bootstrap";
 
+import '../Components/HomePage.css';
 
 const HomePage = () => {
     return (
         <>
-            <NavbarM />
-            <CarouselHero />
-            <Container>
-                <FeaturesSection />
+            <NavBar2 />
+            <div className='Hero'>
+                <CarouselHero />
+            </div>
+            <br />
+            <br />
+            <FeaturesSection />
+            <br />
+            <div className='home-about'>
                 <HomeAboutPage />
-                <Sponser />
-                <CustomerR />
-            </Container>
+            </div>
+            <br/>
+            <CustomerR />
             <Footer />
-
-            <FormComp />
-            <CardsGrid />
-            
         </>
     )
 }
